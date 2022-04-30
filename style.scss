@@ -1,0 +1,57 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.grey-box {
+    background-color: #F2F2F2;
+    padding: 25px;
+    border-radius: 15px;
+
+  .add-to-cart {
+    width: 250px !important;
+    height: 40px !important;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 150px;
+    bottom: 50px;
+    padding: 5px;
+  }
+  button {
+    border: 1px solid grey !important;
+    display: inline-block;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 5px;
+    color: gray;
+    line-height: 0.5;
+  }
+
+  p {
+    font-weight: 700;
+    padding: 5px;
+    line-height: 1;
+    color:#F2994A
+  }
+
+  small {
+    text-decoration: line-through;
+    padding: 5px;
+  }
+}
+
+.btn-warning{
+    background-color: #F2994A;
+    border: #F2994A;
+    color: white;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .add-to-cart{
+    position: inherit !important;
+    }
+  }
